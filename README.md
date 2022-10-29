@@ -1,1 +1,0 @@
-# samuelnimi.github.io
