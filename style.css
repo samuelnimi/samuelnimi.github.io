@@ -369,7 +369,7 @@ footer {
 
 .work-sec>.wrapper>.container-work-1>.container-txt-1>p {
     line-height: 1.55;
-    font-size: 25px;
+    font-size: 1.2rem;
     font-family: "Mada", sans-serif;
     color: #252525;
     width: 60%;
@@ -546,8 +546,11 @@ footer {
     font-family: "Crimson Text", serif;
 }
 
-.work-sec>.wrapper>.container-work-3>.container-text-3>.container-img-3>img {
-    display: block;
-    width: 100%;
-    min-width: 100%;
+.work-sec>.wrapper>.container-work-3 {
+    display: flex;
+}
+
+.work-sec>.wrapper>.container-work-3>.container-img-3>img {
+    width: 500px;
+    margin-top: 30px;
 }
