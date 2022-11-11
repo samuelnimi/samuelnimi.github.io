@@ -6,23 +6,24 @@
 .navbar {
     display: flex;
     background-color: rgba(57, 79, 244, 0.9);
-    font-size: 19px;
+    font-size: 16.6px;
     position: fixed;
     top: 0;
-    width: 100%;
     height: 90px;
+    width: 100%;
     text-align: right;
-    font-family: 'Bona Nova', serif;
+    font-family: 'Pacifico', cursive;
     color: white;
-    font-weight: 600;
     justify-content: end;
 }
+
 .logo {
     margin-top: 30px;
     cursor: pointer;
     text-decoration: none;
     color: white;
 }
+
 .home {
     margin-right: 50px;
     margin-left: 750px;
@@ -30,6 +31,8 @@
     cursor: pointer;
     text-decoration: none;
     color: white;
+    display: flex;
+    letter-spacing: 1px;
 }
 
 .about {
@@ -55,6 +58,7 @@
     text-decoration: none;
     color: whitesmoke;
 }
+
 /*
 .testimonials {
     margin-right: 50px;
@@ -216,7 +220,7 @@ footer {
 
 .about-content {
     display: flex;
-    gap : 20px;
+    gap: 20px;
 }
 
 .about-txt {
@@ -301,6 +305,7 @@ footer {
     margin: 0;
     padding: 50px 0;
 }
+
 .skills-tools-sec>.wrapper>h4 {
     font-size: 1.4rem;
     font-weight: 600;
@@ -310,11 +315,13 @@ footer {
     letter-spacing: 0.02rem;
     margin: 1rem 0 -0.5rem;
 }
+
 .skills-tools-sec>.wrapper>p {
     line-height: 1.55;
     font-size: 1.2rem;
     width: 55%;
 }
+
 .skills-tools-sec>.wrapper>p>a {
     color: #394ff4;
     font-style: normal;
@@ -325,6 +332,7 @@ footer {
     text-decoration: none;
     letter-spacing: .01rem;
 }
+
 .work-sec>.wrapper>h2 {
     color: white;
     font-family: "Poppins", sans-serif;
