@@ -564,3 +564,36 @@ footer {
     width: 31.25rem;
     margin-top: 1.875rem;
 }
+
+@media all and (max-width: 600px) {
+    .about-txt p {
+        width: 33.6875rem;
+    }
+
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: normal;
+        justify-content: normal;
+        align-items: center;
+    }
+
+    .about-img img {
+        max-width: 18.125rem;
+        max-height: 18.125rem;
+    }
+
+    .about-sec h3 {
+        width: 213px;
+    }
+
+    .about-sec h2 {
+        margin-left: 45px;
+    }
+
+    .about-txt h4 {
+        width: 590px;
+        margin-right: 65px;
+    }
+}
